@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, withRouter} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Navbar extends Component{
 
@@ -7,8 +7,8 @@ class Navbar extends Component{
         return(
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <Link to="/">
-                        <a className="navbar-brand">Mircea's Blog</a>
+                    <Link className="navbar-brand" to="/">
+                        Mircea's Blog
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -17,17 +17,17 @@ class Navbar extends Component{
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">
+                            <Link to="/" className="nav-link">
                                 <div className="btn btn-primary">Posts</div>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">
+                            <Link to="/about" className="nav-link">
                                 <div className="btn btn-primary">About</div>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">
+                            <Link to="/contact" className="nav-link">
                                 <div className="btn btn-primary">Contact</div>
                             </Link>
                         </li>
