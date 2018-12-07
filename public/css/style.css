@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';
+    background-color: #ff4c4c;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    color: #ff4c4c !important;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #ffffff;
+}
+
+#intro h1 {
+    font-size: 72px;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #ff0000;
+    border-color: #ff3333;
+}
+
+.btn-primary:hover {
+    background-color: #ff3333;
+    border-color: #ffff;
+}
+
+.btn-primary:active {
+    background-color: #ffffff !important;
+    border-color: #ff3333 !important;
+    color: #ff3333 !important;
+}
+
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    height: 5px;
+    background:#ff5722;
+    transition: width .25s;
+    z-index:9999;
+}
