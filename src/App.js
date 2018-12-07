@@ -18,10 +18,10 @@ class App extends Component {
             <div>
               <Navbar/>
               <Switch>
-                <Route path="/" component={Posts}></Route>
                 <Route path="/post" component={Post}></Route>
                 <Route path="/about" component={About}></Route>
                 <Route path="/contact" component={Contact}></Route>
+                <Route path="/" component={Posts}></Route>
               </Switch>
             </div>
           </Provider>
