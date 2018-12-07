@@ -35,7 +35,7 @@ class Contact extends Component{
                         </div>
                         <div className="col-md-4">
                             <div className="col-md-4">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" style={{width: 18 + 'rem'}}>
                                     <img className="card-img-top" src="http://via.placeholder.com/268x180" alt="Card image cap"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
@@ -44,7 +44,7 @@ class Contact extends Component{
                                     </div>
                                 </div>
                                 <br></br>
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" style={{width: 18 + 'rem'}}>
                                     <img className="card-img-top" src="http://via.placeholder.com/268x180" alt="Card image cap"></img>
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
