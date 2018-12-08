@@ -18,17 +18,17 @@ class Navbar extends Component{
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">
-                                <div className="btn btn-primary">Posts</div>
+                                <div className="btn btn-primary btn-lg">Posts</div>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/about" className="nav-link">
-                                <div className="btn btn-primary">About</div>
+                                <div className="btn btn-primary btn-lg">About</div>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/contact" className="nav-link">
-                                <div className="btn btn-primary">Contact</div>
+                                <div className="btn btn-primary btn-lg">Contact</div>
                             </Link>
                         </li>
                     </ul>
