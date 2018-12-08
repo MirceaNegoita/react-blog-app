@@ -18,3 +18,17 @@ export function setPostDescription(description){
         payload:description
     }
 }
+
+export function setPosts(value){
+    return {
+        type:"SET_POSTS",
+        payload: value
+    }
+}
+
+export function setPost(value){
+    return {
+        type:"SET_POST",
+        payload: value
+    }
+}
